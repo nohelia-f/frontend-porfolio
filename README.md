@@ -1,1 +1,2 @@
-# portafolio-2022
+Nohelia Figueredo
+Frontend developer - portfolio 2023
