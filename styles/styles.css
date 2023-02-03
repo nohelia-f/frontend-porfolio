@@ -6,8 +6,8 @@
 body {
     background: rgb(211, 155, 179);
     background: linear-gradient(132deg, rgba(211, 155, 179, 1) 0%, rgba(255, 254, 247, 1) 16%, rgba(255, 254, 247, 1) 89%, rgba(248, 182, 168, 0.986453956582633) 100%);
-    background-size: cover;
-    background-repeat: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     display: flex;
@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    min-height: 720px;
 }
 
 /* //header section// */
@@ -73,18 +74,19 @@ a:hover {
 }
 
 .container a:hover {
-    color: #6d075f;
-    background: -webkit-linear-gradient(to bottom, #6d075f, #ad5389);
-    background: linear-gradient(to bottom, #6d075f, #ad5389);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    border-top: #6d075f 0.5rem;
 }
+
+.pages {
+    font-size: 1.2rem;
+}
+
 
 
 /* //main section// */
 main {
     margin-top: 5rem;
-    text-align: justify;
+    text-align: left;
 }
 
 main h4 {
@@ -93,7 +95,6 @@ main h4 {
     background: linear-gradient(to right, #6d075f, #ad5389);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 2rem;
     text-align: left;
 }
 
@@ -101,18 +102,21 @@ main h4+p {
     margin-top: 2rem;
 }
 
-main p {
+p {
     color: #ad5389;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
     font-size: 20px;
 }
 
 .about-box {
-    border: #f8b6a8 solid 4px;
-    border-color: #f8b6a8;
-    margin: 10px;
-    padding: 20px;
-
+    border: solid rgba(248, 182, 168, 0.1);
+    border-radius: 20px;
+    border-width: 2px;
+    box-shadow:2px 2px rgba(248, 182, 168, 0.2);
+    margin: 20px;
+    row-gap: 4rem;
+    max-width: 42em;
+    padding: 3rem;
 }
 
 footer {
@@ -120,6 +124,8 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: static;
+    bottom: 0px;
     margin-top: 3rem;
 }
 
