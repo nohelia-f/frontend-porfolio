@@ -74,19 +74,25 @@ a:hover {
 }
 
 #navbar {
-    margin: 1rem;
-    gap: 1px;
+    background: #fffef7;
+    background: linear-gradient(132deg, rgb(238, 235, 217) 0%, #fffef7 100%);
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    top: -50px;
+    top: 0;
+    height: 2rem;
     width: 100%;
-    height: 6rem;
     transition: top 0.3s;
-
+    visibility: hidden;
+    padding: 0.5rem;
 }
 
-#navbar a{
-        text-decoration: underline #ad5389;
+#navbar a {
+    /* margin-top: 2rem; */
+    text-decoration: underline #ad5389;
+    gap: 1px;
 }
 
 #navbar a:hover {
