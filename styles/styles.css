@@ -152,7 +152,7 @@ footer nav a {
     border-top: rgb(244, 209, 166);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
    h1{
     font-size: 4rem;
    }
@@ -160,4 +160,20 @@ footer nav a {
    footer {
     margin-top: 1rem;
    }
+
+   .pages a {
+       padding-bottom: 2vh;
+   }
+
+   .pages {
+    display: grid;
+    padding-left: 2vh;
+    padding-right: 2vh;
+   }
+
+   #navbar{
+    font-size: 1rem;
+   }
+
+   
 }
