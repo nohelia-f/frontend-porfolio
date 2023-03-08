@@ -82,12 +82,11 @@ a:hover {
 
 #navbar a {
     margin: 1rem;
-    gap: 1rem;
-    text-decoration: none;
+    text-decoration: underline #ad5389;
 }
 
 #navbar a:hover {
-    text-decoration: underline #ad5389;
+    text-decoration: none;
 }
 
 footer {
@@ -157,7 +156,10 @@ iframe {
 
     #navbar {
         font-size: 1rem;
-        margin: .5vw;
+    }
+
+    #navbar a {
+        margin: 1.5vw;
     }
 
     .img-couple {

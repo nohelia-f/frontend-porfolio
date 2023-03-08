@@ -175,5 +175,9 @@ footer nav a {
     font-size: 1rem;
    }
 
+   #navbar a {
+        margin: 1.5vw;
+   }
+
    
 }
