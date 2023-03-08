@@ -167,6 +167,10 @@ iframe {
         flex-direction: column;
         align-items: center;
     }
+    
+    .photos-container img {
+        margin: 1vh 0vh;
+    }
 
 
 }
