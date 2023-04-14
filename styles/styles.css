@@ -73,10 +73,9 @@ a:hover {
     font-size: 1.2rem;
 }
 
-#navbar {
+#navbar-menu-pages {
     background: #fffef7;
     background: linear-gradient(132deg, rgb(238, 235, 217) 0%, #fffef7 100%);
-    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,13 +88,14 @@ a:hover {
     padding: 0.5rem;
 }
 
-#navbar a {
+#navbar-menu-pages a {
+    font-size: 1.2rem;
     text-decoration: underline #ad5389;
     margin: 1rem;
     gap: 1rem;
 }
 
-#navbar a:hover {
+#navbar-menu-pages a:hover {
     text-decoration-line: none;
 }
 
@@ -152,7 +152,7 @@ footer nav a {
     border-top: rgb(244, 209, 166);
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
    h1{
     font-size: 4rem;
    }
@@ -171,12 +171,13 @@ footer nav a {
     padding-right: 2vh;
    }
 
-   #navbar{
-    font-size: 1rem;
+   #navbar-menu-pages {
+    padding: 0.5rem 0rem 0.5rem 0rem;
    }
 
-   #navbar a {
+   #navbar-menu-pages a {
         margin: 1.5vw;
+        font-size: 1rem;
    }
 
    
