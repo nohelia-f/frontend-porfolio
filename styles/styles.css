@@ -5,7 +5,7 @@
 
 body {
     background: rgb(211, 155, 179);
-    background: linear-gradient(132deg, rgba(211, 155, 179, 1) 0%, rgb(238, 235, 217) 16%, #fffef7 89%, #f8b6a8fb 100%);
+    background: linear-gradient(132deg, rgba(211, 155, 179, 1) 0%, rgba(248,247,239) 16%, #fffef7 89%, #f8b6a8fb 100%);
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Quicksand', sans-serif;
@@ -75,7 +75,7 @@ a:hover {
 
 #navbar-menu-pages {
     background: #fffef7;
-    background: linear-gradient(132deg, rgb(238, 235, 217) 0%, #fffef7 100%);
+    background: linear-gradient(132deg, rgb(248, 247, 239) 0%, #fffef7 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,9 +125,6 @@ p {
 }
 
 .about-box {
-    border: solid rgba(247, 217, 179, 0.26);
-    border-radius: 20px;
-    border-width: 2px;
     margin: 30px;
     row-gap: 4rem;
     max-width: 42em;
